@@ -20,19 +20,17 @@ The goal is to compare practical startup and runtime behavior:
 
 ## Links
 
-Replace the repository owner/name if you publish this under a different GitHub repository.
-
 ### JupyterLite
 
-- JupyterLite site: https://lcbmann.github.io/ComputationalGeophysics_JupyterLite_Binder_Benchmark/lab/index.html
-- Simple notebook: https://lcbmann.github.io/ComputationalGeophysics_JupyterLite_Binder_Benchmark/lab/index.html?path=notebooks/01_simple_fd_acoustic_1d_animation.ipynb
-- Complex notebook: https://lcbmann.github.io/ComputationalGeophysics_JupyterLite_Binder_Benchmark/lab/index.html?path=notebooks/02_complex_fd_acoustic_2d_animation.ipynb
+- JupyterLite site: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html
+- Simple notebook: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html?path=notebooks/01_simple_fd_acoustic_1d_animation.ipynb
+- Complex notebook: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html?path=notebooks/02_complex_fd_acoustic_2d_animation.ipynb
 
 ### MyBinder
 
-- Binder launcher: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics_JupyterLite_Binder_Benchmark/HEAD?urlpath=lab
-- Simple notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics_JupyterLite_Binder_Benchmark/HEAD?urlpath=lab/tree/notebooks/01_simple_fd_acoustic_1d_animation.ipynb
-- Complex notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics_JupyterLite_Binder_Benchmark/HEAD?urlpath=lab/tree/notebooks/02_complex_fd_acoustic_2d_animation.ipynb
+- Binder launcher: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab
+- Simple notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab/tree/notebooks/01_simple_fd_acoustic_1d_animation.ipynb
+- Complex notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab/tree/notebooks/02_complex_fd_acoustic_2d_animation.ipynb
 
 ## Suggested Test
 
