@@ -1,0 +1,10 @@
+name: geophysics-animation-benchmark
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - ipython
+  - ipykernel
+  - jupyterlab
