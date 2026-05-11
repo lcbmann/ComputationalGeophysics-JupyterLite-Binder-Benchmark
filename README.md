@@ -1,44 +1,31 @@
 # Computational Geophysics Animation Benchmark
 
-This small repository compares MyBinder and JupyterLite for running animation-heavy computational geophysics notebooks.
+This repository compares MyBinder and JupyterLite for two computational geophysics animation notebooks.
 
-It contains two notebooks adapted from the finite-difference wave-animation material in the Computational Geophysics short course:
+The notebooks are small standalone benchmarks adapted from finite-difference wave examples:
 
-- `notebooks/01_simple_fd_acoustic_1d_animation.ipynb`: a small 1D acoustic wave animation
-- `notebooks/02_complex_fd_acoustic_2d_animation.ipynb`: a larger 2D acoustic wave animation
+- `notebooks/01_simple_fd_acoustic_1d_animation.ipynb`: simple 1D acoustic wave animation
+- `notebooks/02_complex_fd_acoustic_2d_animation.ipynb`: heavier 2D acoustic wave animation
 
-Each notebook measures:
+Each notebook prints timing values for the simulation, animation setup, and JavaScript/HTML animation rendering.
 
-- simulation time
-- animation object creation time
-- JavaScript/HTML animation rendering time
-
-The goal is to compare practical startup and runtime behavior:
-
-- MyBinder has a full server-side Python environment, but startup can be slow.
-- JupyterLite starts from static GitHub Pages, but the Python kernel runs in the browser.
-
-## Links
-
-### JupyterLite
-
+## JupyterLite
 - JupyterLite site: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html
 - Simple notebook: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html?path=notebooks/01_simple_fd_acoustic_1d_animation.ipynb
 - Complex notebook: https://lcbmann.github.io/ComputationalGeophysics-JupyterLite-Binder-Benchmark/lab/index.html?path=notebooks/02_complex_fd_acoustic_2d_animation.ipynb
 
-### MyBinder
-
+## MyBinder
 - Binder launcher: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab
 - Simple notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab/tree/notebooks/01_simple_fd_acoustic_1d_animation.ipynb
 - Complex notebook: https://mybinder.org/v2/gh/lcbmann/ComputationalGeophysics-JupyterLite-Binder-Benchmark/HEAD?urlpath=lab/tree/notebooks/02_complex_fd_acoustic_2d_animation.ipynb
 
-## Suggested Test
+## What To Record
 
-For each platform, record:
-
-- time from clicking the link to seeing the notebook UI
-- time until the Python kernel is ready
-- time for the simulation cell
-- time for the animation rendering cell
+- page load time
+- kernel ready time
+- `simulation_seconds`
+- `animation_creation_seconds`
+- `jshtml_render_seconds`
+- `html_size_mb`
 
 Use a fresh private browser window for each test if you want to reduce cache effects.
