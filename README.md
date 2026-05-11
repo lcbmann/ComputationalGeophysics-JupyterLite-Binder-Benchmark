@@ -1,11 +1,11 @@
 # Computational Geophysics Animation Benchmark
 
-This repository compares MyBinder and JupyterLite for two computational geophysics animation notebooks.
+This repository compares MyBinder and JupyterLite for two animation notebooks derived from the Computational Geophysics short course.
 
-The notebooks are small standalone benchmarks adapted from finite-difference wave examples:
+The notebooks keep the course-style plotting and finite-difference parameters:
 
-- `notebooks/01_simple_fd_acoustic_1d_animation.ipynb`: simple 1D acoustic wave animation
-- `notebooks/02_complex_fd_acoustic_2d_animation.ipynb`: heavier 2D acoustic wave animation
+- `notebooks/01_simple_fd_acoustic_1d_animation.ipynb`: based on `fd_acoustic_1D.ipynb`, with `nx=10000`, `nt=1001`, `idisp=5`
+- `notebooks/02_complex_fd_acoustic_2d_animation.ipynb`: based on `fd_acoustic_2D_homogeneous.ipynb`, with `nx=500`, `nz=500`, `nt=502`, `idisp=5`
 
 Each notebook prints timing values for the simulation, animation setup, and JavaScript/HTML animation rendering.
 
